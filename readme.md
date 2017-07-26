@@ -41,7 +41,7 @@ In case if you don't specify the resolution callback for any request type, the r
 
 Parameter `horizon` is required only for `txid` lookup. You can safely omit it if you don't plan to allow `txid` requests.
 
-## Usage examples
+## Usage
 
 Assume we have database with table User and some basic set of parameters.
 
@@ -175,12 +175,14 @@ app.use((err, req, res, next) => {
 
 ## Contribution
 
-Project repository: https://github.com/GFTNetwork/stellar-federation-resolver-node
-Issue tracker: https://github.com/GFTNetwork/stellar-federation-resolver-node/issues
+* Project repository: https://github.com/GFTNetwork/stellar-federation-resolver-node
+* Issue tracker: https://github.com/GFTNetwork/stellar-federation-resolver-node/issues
 
 ### Tests
 
+```
 npm test
+```
 
 ### How can I help
 
